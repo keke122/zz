@@ -10,3 +10,10 @@ git config --list
 
 tarena@tedu:~/201911学习资料/month2019_12$ git init
 已初始化空的 Git 仓库于 /home/tarena/201911学习资料/month2019_12/.git/
+1.1 工作区---->> 暂存区
+tarena@tedu:~/201911学习资料/month2019_12/day17_12_18$ git add dict.txt
+tarena@tedu:~/201911学习资料/month2019_12/day17_12_18$ git status
+tarena@tedu:~/201911学习资料/month2019_12/day17_12_18$ git add *
+1.2 取消暂存
+tarena@tedu:~/201911学习资料/month2019_12/day17_12_18$ git rm --cached dict.txt
+rm 'dict.txt'
